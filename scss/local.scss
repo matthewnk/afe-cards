@@ -13,5 +13,28 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
-  
+
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+  header {
+    h1 {
+      margin: $nav-title-margin;
+    }
+  }
+
+  nav {
+    width: $nav-width;
+
+    a {
+      width: $nav-item-width;
+      padding: $nav-item-padding;
+      margin: $nav-item-margin;
+    }
+  }
 }

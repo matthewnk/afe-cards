@@ -9,16 +9,18 @@
   width: $card-width;
 }
 .card-container {
+  align-items: flex-start;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
 
 }
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+
+// TODO - This is the break point from HTML 5 boilerplate. How can we turn this into a variable and also make sure that it tracks what's in main.css?
 
 @media only screen and (min-width: 480px) {
 

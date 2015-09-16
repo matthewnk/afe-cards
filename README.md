@@ -8,6 +8,7 @@ It has had some modifications:
 * Boilerplate content to start out a web development notebook with representative sections
 * Addition of a _scss_ folder for local modifications
 * Addition of a _local.scss_ file to begin customizations
+* Some minor tweaks to the menu using scss
 
 Your job is to make modifications as required by assignment two and later assignments, then to use this notebook as a means of recording what you've learned as part of this class.
 

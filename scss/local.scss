@@ -2,15 +2,12 @@
 @import "components/mixins";
 
 aside {
+  @include define-card;
   background-color: $aside-background-color;
-  border-radius: $card-border-radius;
-  height: $card-height;
-  margin: $card-margin;
-  padding: $card-padding;
+  background-image: $card-img-gradient;
   width: $aside-width;
-  box-shadow: $card-shadow;
+  border-top: 0px;
 }
-
 
 .card-container {
   align-items: flex-start;
@@ -20,6 +17,7 @@ aside {
 
   .card-html {
     @include define-card;
+    // overflow: scroll;
   }
 
   .card-css {
@@ -39,7 +37,7 @@ aside {
 }
 
 
-footer {
+.footer-container {
   background-color: $footer-background-color;
 }
 
@@ -48,12 +46,13 @@ footer {
   nav a {
     background-color: $nav-button-color;
     font-size: $nav-button-font-size1;
+
   }
 
-  h1{
+  h3{
     font-size: $header-font-size;
     line-height: $header-font-line-height;
-    margin: $header-margin;
+    margin: $card-h3-margin;
   }
 }
 
@@ -67,21 +66,15 @@ footer {
 
     .header-container {
     
-    nav a {
-      
+    nav a {      
       font-size: 1em;
-    }
-
-    h1{
-      // font-size: $header-font-size;
-      // line-height: $header-font-line-height;
-      // margin: $header-margin;
+      padding-top: 1.5em;
+      box-shadow: 5px -5px 0px #d6b150;
     }
   }
 
   header {
     h1 {
-      margin: $nav-title-margin;
     }
   }
 
@@ -93,6 +86,12 @@ footer {
       width: $nav-item-width;
       padding: $nav-item-padding;
       margin: $nav-item-margin;
+      width: 16.66667%;
+      height: 40px;
+      position: relative;
+      z-index: 1;
+      border-top-left-radius: 2em;
+      border-bottom-right-radius: 0;
     }
   }
 }

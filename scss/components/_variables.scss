@@ -8,7 +8,7 @@ $card-border-radius: 5px;
 $card-height: 20rem;
 $card-margin: 1rem 0 1rem 0;
 $card-padding: 10px;
-$card-width: 91%;
+$card-width: 100%;
 $card-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.24);
 
 $card-img1: url(../img/html1.jpg);
@@ -37,9 +37,10 @@ $card-img-gradient: linear-gradient(
 
 $card-img-size: 100% 120px;
 $card-img-repeat: no-repeat;
-$card-h1-color: #fff;
-$card-h1-font-size: 3em;
-$card-h1-line-height: 0;
+$card-h3-color: #fff;
+$card-h3-font-size: 3em;
+$card-h3-line-height: 0;
+$card-h3-margin: .8em 0 .5em;
 
 $card-summary-color: #fff;
 $card-summary-font-size: 1em;

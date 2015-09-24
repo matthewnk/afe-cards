@@ -1,0 +1,31 @@
+{
+  "name": "afe-cards",
+  "version": "1.0.0",
+  "description": "a card-based journal site with a glossary of coding terms",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewnk/afe-cards.git"
+  },
+  "author": "Matthew N. King",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewnk/afe-cards/issues"
+  },
+  "homepage": "https://github.com/matthewnk/afe-cards#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-livereload": "^3.8.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.0.4"
+  }
+}

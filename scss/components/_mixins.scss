@@ -1,0 +1,38 @@
+@mixin border-radius($radius: 5px) {
+	-moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin define-card ($card-background-color: $blue1, $card-image: $card-img1){
+	background-image: $card-img-gradient, $card-img1;
+  background-size: $card-img-size;
+  background-repeat: $card-img-repeat;
+  background-color: $card-background-color;
+  border-radius: $card-border-radius;
+  height: $card-height;
+  margin: $card-margin;
+  padding: $card-padding;
+  width: $card-width;
+  box-shadow: $card-shadow;
+
+  .card-header{
+
+      h1{
+        color: $card-h1-color;
+        font-size: $card-h1-font-size;
+        line-height: $card-h1-line-height;
+      }
+
+      summary {
+        color: $card-summary-color;
+        font-size: $card-summary-font-size;
+        line-height: $card-summary-line-height;
+      }
+   }
+
+   details {
+    padding-top: $card-details-padding;
+  }
+}

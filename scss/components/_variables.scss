@@ -1,9 +1,56 @@
-$card-background-color: #abc;
-$card-border: 1px solid black;
-$card-height: 10rem;
-$card-margin: 1rem 1rem 1rem 0;
-$card-padding: 5px;
-$card-width: 10rem;
+$grey1: #B8BFB8;
+$yellow1: #FFD464;
+$red1: #F26964;
+$blue1: #0F6470;
+
+$card-background-color: $blue1;
+$card-border-radius: 5px;
+$card-height: 20rem;
+$card-margin: 1rem 0 1rem 0;
+$card-padding: 10px;
+$card-width: 91%;
+$card-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.24);
+
+$card-img1: url(../img/html1.jpg);
+$card-img-gradient: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    );
+
+$card-img2: url(../img/scss1.jpg);
+$card-img-gradient: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    );
+
+$card-img3: url(../img/js1.jpg);
+$card-img-gradient: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    );
+
+$card-img4: url(../img/tools1.jpg);
+$card-img-gradient: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    );
+
+$card-img-size: 100% 120px;
+$card-img-repeat: no-repeat;
+$card-h1-color: #fff;
+$card-h1-font-size: 3em;
+$card-h1-line-height: 0;
+
+$card-summary-color: #fff;
+$card-summary-font-size: 1em;
+$card-summary-line-height: 1;
+
+$card-details-padding: 50px;
+
+$aside-background-color: $red1;
+// $aside-border-radius: 5px;
+// $aside-shadow:  $card-shadow;
+$aside-width: 87%;
 
 $menu-items: 6;
 $nav-item-margin: 0 1rem 0 0;
@@ -12,3 +59,14 @@ $nav-margin: 0 0 0 1rem;
 $nav-title-margin: 0.5rem 0.5rem 0.5rem 0;
 $nav-width: 100%;
 $nav-item-width: $nav-width / $menu-items;
+$nav-button-color: $yellow1;
+$nav-button-font-size1: 2em;
+$nav-button-font-size2: 1em;
+
+$footer-background-color: $grey1;
+
+
+$header-background-color: $grey1;
+$header-font-size: 2em;
+$header-font-line-height: 80%;
+$header-margin: 10px 0 10px 0;

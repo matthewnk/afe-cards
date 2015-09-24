@@ -1,19 +1,60 @@
 @import "components/variables";
+@import "components/mixins";
 
-.card {
-  background-color: $card-background-color;
-  border: $card-border;
+aside {
+  background-color: $aside-background-color;
+  border-radius: $card-border-radius;
   height: $card-height;
   margin: $card-margin;
   padding: $card-padding;
-  width: $card-width;
+  width: $aside-width;
+  box-shadow: $card-shadow;
 }
+
+
 .card-container {
   align-items: flex-start;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 
+  .card-html {
+    @include define-card;
+  }
+
+  .card-css {
+    @include define-card;
+    background-image: $card-img-gradient, $card-img2;
+  }
+
+  .card-js {
+    @include define-card;
+    background-image: $card-img-gradient, $card-img3;
+  }
+
+  .card-tools {
+    @include define-card;
+    background-image: $card-img-gradient, $card-img4;
+  }
+}
+
+
+footer {
+  background-color: $footer-background-color;
+}
+
+.header-container {
+  background-color: $header-background-color;
+  nav a {
+    background-color: $nav-button-color;
+    font-size: $nav-button-font-size1;
+  }
+
+  h1{
+    font-size: $header-font-size;
+    line-height: $header-font-line-height;
+    margin: $header-margin;
+  }
 }
 
 /* ==========================================================================
@@ -23,6 +64,20 @@
 // TODO - This is the break point from HTML 5 boilerplate. How can we turn this into a variable and also make sure that it tracks what's in main.css?
 
 @media only screen and (min-width: 480px) {
+
+    .header-container {
+    
+    nav a {
+      
+      font-size: 1em;
+    }
+
+    h1{
+      // font-size: $header-font-size;
+      // line-height: $header-font-line-height;
+      // margin: $header-margin;
+    }
+  }
 
   header {
     h1 {
@@ -34,6 +89,7 @@
     width: $nav-width;
 
     a {
+      font-size: 1em;
       width: $nav-item-width;
       padding: $nav-item-padding;
       margin: $nav-item-margin;

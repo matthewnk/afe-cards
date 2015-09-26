@@ -132,7 +132,7 @@ nav a:hover {
 
 .main aside {
     color: white;
-    padding: 0px 5% 100%;
+    /*padding: 0px 5% 100%;*/
 
 }
 
@@ -250,8 +250,9 @@ nav a:hover {
     }
 
     .main aside {
-        float: right;
-        width: 28%;
+      float: right;
+      width: 35%;
+      height: 88em;
     }
 }
 

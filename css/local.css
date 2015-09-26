@@ -5,13 +5,15 @@ aside {
   background-color: #0F6470;
   border-radius: 5px;
   height: 20rem;
-  margin: 1rem 0 1rem 0;
+  margin: 1em 0 0.5em 0;
   padding: 10px;
   width: 100%;
   box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.24);
+  margin-bottom: .5em;
+  margin-top: .85em;
   background-color: #F26964;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-  width: 87%;
+  width: 90%;
   border-top: 0px; }
   aside .card-header h3 {
     color: #fff;
@@ -23,6 +25,9 @@ aside {
     line-height: 1; }
   aside details {
     padding-top: 50px; }
+  aside h3 {
+    margin-top: .8em;
+    margin-bottom: .5em; }
 
 .card-container {
   align-items: flex-start;
@@ -36,10 +41,12 @@ aside {
     background-color: #0F6470;
     border-radius: 5px;
     height: 20rem;
-    margin: 1rem 0 1rem 0;
+    margin: 1em 0 0.5em 0;
     padding: 10px;
     width: 100%;
-    box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.24); }
+    box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.24);
+    margin-bottom: .5em;
+    margin-top: .85em; }
     .card-container .card-html .card-header h3 {
       color: #fff;
       font-size: 3em;
@@ -50,6 +57,9 @@ aside {
       line-height: 1; }
     .card-container .card-html details {
       padding-top: 50px; }
+    .card-container .card-html h3 {
+      margin-top: .8em;
+      margin-bottom: .5em; }
   .card-container .card-css {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/html1.jpg);
     background-size: 100% 120px;
@@ -57,10 +67,12 @@ aside {
     background-color: #0F6470;
     border-radius: 5px;
     height: 20rem;
-    margin: 1rem 0 1rem 0;
+    margin: 1em 0 0.5em 0;
     padding: 10px;
     width: 100%;
     box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.24);
+    margin-bottom: .5em;
+    margin-top: .85em;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/scss1.jpg); }
     .card-container .card-css .card-header h3 {
       color: #fff;
@@ -72,6 +84,9 @@ aside {
       line-height: 1; }
     .card-container .card-css details {
       padding-top: 50px; }
+    .card-container .card-css h3 {
+      margin-top: .7em;
+      margin-bottom: .5em; }
   .card-container .card-js {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/html1.jpg);
     background-size: 100% 120px;
@@ -79,10 +94,12 @@ aside {
     background-color: #0F6470;
     border-radius: 5px;
     height: 20rem;
-    margin: 1rem 0 1rem 0;
+    margin: 1em 0 0.5em 0;
     padding: 10px;
     width: 100%;
     box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.24);
+    margin-bottom: .5em;
+    margin-top: .85em;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/js1.jpg); }
     .card-container .card-js .card-header h3 {
       color: #fff;
@@ -94,6 +111,9 @@ aside {
       line-height: 1; }
     .card-container .card-js details {
       padding-top: 50px; }
+    .card-container .card-js h3 {
+      margin-top: .7em;
+      margin-bottom: .5em; }
   .card-container .card-tools {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/html1.jpg);
     background-size: 100% 120px;
@@ -101,10 +121,12 @@ aside {
     background-color: #0F6470;
     border-radius: 5px;
     height: 20rem;
-    margin: 1rem 0 1rem 0;
+    margin: 1em 0 0.5em 0;
     padding: 10px;
     width: 100%;
     box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.24);
+    margin-bottom: .5em;
+    margin-top: .85em;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/tools1.jpg); }
     .card-container .card-tools .card-header h3 {
       color: #fff;
@@ -116,6 +138,9 @@ aside {
       line-height: 1; }
     .card-container .card-tools details {
       padding-top: 50px; }
+    .card-container .card-tools h3 {
+      margin-top: .7em;
+      margin-bottom: .5em; }
 
 .footer-container {
   background-color: #B8BFB8; }
@@ -128,7 +153,7 @@ aside {
   .header-container h3 {
     font-size: 2em;
     line-height: 80%;
-    margin: 0.8em 0 0.5em; }
+    margin: 1em 0 0.5em 0; }
 
 /* ==========================================================================
    Media Queries

@@ -40,7 +40,7 @@ $card-img-repeat: no-repeat;
 $card-h3-color: #fff;
 $card-h3-font-size: 3em;
 $card-h3-line-height: 0;
-$card-h3-margin: .8em 0 .5em;
+$card-h3-margin: 1em 0 .5em 0;
 
 $card-summary-color: #fff;
 $card-summary-font-size: 1em;
@@ -49,9 +49,7 @@ $card-summary-line-height: 1;
 $card-details-padding: 50px;
 
 $aside-background-color: $red1;
-// $aside-border-radius: 5px;
-// $aside-shadow:  $card-shadow;
-$aside-width: 87%;
+$aside-width: 90%;
 
 $menu-items: 6;
 $nav-item-margin: 0 1rem 0 0;

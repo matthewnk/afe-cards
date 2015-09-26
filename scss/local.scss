@@ -3,6 +3,10 @@
 
 aside {
   @include define-card;
+  h3{
+      margin-top: .8em;
+      margin-bottom: .5em;
+    }
   background-color: $aside-background-color;
   background-image: $card-img-gradient;
   width: $aside-width;
@@ -18,21 +22,37 @@ aside {
   .card-html {
     @include define-card;
     // overflow: scroll;
+    h3{
+      margin-top: .8em;
+      margin-bottom: .5em;
+    }
   }
 
   .card-css {
     @include define-card;
     background-image: $card-img-gradient, $card-img2;
+    h3{
+      margin-top: .7em;
+      margin-bottom: .5em;
+    }
   }
 
   .card-js {
     @include define-card;
     background-image: $card-img-gradient, $card-img3;
+    h3{
+      margin-top: .7em;
+      margin-bottom: .5em;
+    }
   }
 
   .card-tools {
     @include define-card;
     background-image: $card-img-gradient, $card-img4;
+    h3{
+      margin-top: .7em;
+      margin-bottom: .5em;
+    }
   }
 }
 

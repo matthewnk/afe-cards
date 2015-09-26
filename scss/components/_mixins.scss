@@ -12,10 +12,12 @@
   background-color: $card-background-color;
   border-radius: $card-border-radius;
   height: $card-height;
-  margin: $card-margin;
+  margin: $card-h3-margin;
   padding: $card-padding;
   width: $card-width;
   box-shadow: $card-shadow;
+  margin-bottom: .5em;
+  margin-top: .85em;
 
   .card-header{
 

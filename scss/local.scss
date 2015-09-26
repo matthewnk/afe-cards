@@ -62,7 +62,7 @@ aside {
 
 // TODO - This is the break point from HTML 5 boilerplate. How can we turn this into a variable and also make sure that it tracks what's in main.css?
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 769px) {
 
     .header-container {
     
@@ -73,25 +73,42 @@ aside {
     }
   }
 
-  header {
-    h1 {
-    }
-  }
-
   nav {
     width: $nav-width;
 
     a {
+      position: relative;
+      top: 150px;
       font-size: 1em;
       width: $nav-item-width;
       padding: $nav-item-padding;
-      margin: $nav-item-margin;
+      margin: $nav-item-margin-wide;
       width: 16.66667%;
       height: 40px;
-      position: relative;
       z-index: 1;
       border-top-left-radius: 2em;
       border-bottom-right-radius: 0;
+    }
+  }
+
+  .main-container{
+    position: relative;
+    top: -50px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  nav {
+    width: $nav-width;
+
+    a{
+      left: 0px;
+    }
+
+    li:last-child{
+      position: relative;
+      left: 1000px;
+      // visibility: hidden;
     }
   }
 }

@@ -59,10 +59,6 @@ textarea {
     background-color: #f5f5f5;
 }
 
-/* ===== Initializr Styles ==================================================
-   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
-   ========================================================================== */
-
 body {
   font: 16px/26px Helvetica, Helvetica Neue, Arial;
   background-color: #B8BFB8;
@@ -73,10 +69,6 @@ body {
     margin: 0 5%;
 }
 
-/* ===================
-    ALL: Orange Theme
-   =================== */
-
 .header-container {
     border-bottom: 20px solid #B8BFB8;
 }
@@ -86,7 +78,7 @@ aside {
 }
 
 .title {
-    color: white;
+  color: white;
 }
 
 /* ==============
@@ -94,33 +86,36 @@ aside {
    ============== */
 
 nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    transform: rotate(-90deg);
-
+  position: relative;
+  top: 20px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  transform: rotate(-90deg);
 }
 
 nav a {
-    display: block;
-    margin-bottom: 19px;
-    padding: 15px 0;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
-    border-bottom-right-radius: 2em;
-    width: 9.5em;
-    box-shadow: 5px 5px 0px #d6b150;
+  /*position: relative;
+  left: -20px;*/
+  display: block;
+  margin-bottom: 19px;
+  padding: 15px 0;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  border-bottom-right-radius: 2em;
+  width: 9.5em;
+  box-shadow: 5px 5px 0px #d6b150;
 }
 
 nav a:hover,
 nav a:visited {
-    color: white;
+  color: white;
 }
 
 nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* ==============
@@ -155,35 +150,36 @@ nav a:hover {
 }
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ==========================================================================
    Media Queries
    ========================================================================== */
-
 @media only screen and (min-width: 480px) {
+  nav ul{
+    /*position: relative;
+    top: -100px;*/
+  }
+
+}
+
+@media only screen and (min-width: 500px) {
+  nav ul{
+    position: relative;
+    top: -30px;
+  }
+
+@media only screen and (min-width: 666px) {
+  nav ul{
+    position: relative;
+    top: -100px;
+  }
+
+}
+
+@media only screen and (min-width: 769px) {
 
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
-    nav ul {
-      transform: rotate(0deg);
-    }
+   
 
     nav a {
       float: left;
@@ -231,6 +227,9 @@ nav a:hover {
 /* ============
     WIDE: Menu
    ============ */
+    nav ul {
+      transform: rotate(0deg);
+    }
 
     .title {
         float: left;

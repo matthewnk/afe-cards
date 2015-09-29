@@ -19,6 +19,13 @@ aside {
   flex-direction: row;
   flex-wrap: wrap;
 
+  .backToTop {
+    position: relative;
+    top: -1.7em;
+    float: right;
+    font-weight: bolder;
+  }
+
   .card-html {
     @include define-card;
     // overflow: scroll;
@@ -76,6 +83,13 @@ aside {
   }
 }
 
+.backToTop{
+  text-decoration: none;
+  color: $yellow1;
+  font-weight: lighter;
+
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -111,7 +125,7 @@ aside {
 
     a {
       position: relative;
-      top: 150px;
+      top: 240px;
       font-size: 1em;
       width: $nav-item-width;
       padding: $nav-item-padding;
@@ -140,7 +154,7 @@ aside {
 
     li:last-child{
       position: relative;
-      left: 1000px;
+      left: 9999px;
       // visibility: hidden;
     }
   }

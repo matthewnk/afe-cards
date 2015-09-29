@@ -36,6 +36,11 @@ aside {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; }
+  .card-container .backToTop {
+    position: relative;
+    top: -1.7em;
+    float: right;
+    font-weight: bolder; }
   .card-container .card-html {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/html1.jpg);
     background-size: 100% 120px;
@@ -165,6 +170,11 @@ aside {
     line-height: 80%;
     margin: 1em 0 0.5em 0; }
 
+.backToTop {
+  text-decoration: none;
+  color: #FFD464;
+  font-weight: lighter; }
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -183,7 +193,7 @@ aside {
     width: 100%; }
     nav a {
       position: relative;
-      top: 150px;
+      top: 240px;
       font-size: 1em;
       width: 16.66667%;
       padding: 0.5rem;
@@ -204,4 +214,4 @@ aside {
       left: 0px; }
     nav li:last-child {
       position: relative;
-      left: 1000px; } }
+      left: 9999px; } }

@@ -21,16 +21,10 @@ aside {
 
   .card-html {
     @include define-card;
-<<<<<<< HEAD
     // overflow: scroll;
     h3{
       margin-top: .8em;
       margin-bottom: .5em;
-=======
-
-    details {
-      overflow: scroll;
->>>>>>> gh-pages
     }
   }
 
@@ -87,6 +81,19 @@ aside {
    ========================================================================== */
 
 // TODO - This is the break point from HTML 5 boilerplate. How can we turn this into a variable and also make sure that it tracks what's in main.css?
+
+@media only screen and (orientation: landscape){
+  .header-container{
+    nav ul{
+      top: -12em;
+    }
+
+  }
+  .main-container{
+    top: -9.8em;
+  }
+
+}
 
 @media only screen and (min-width: 769px) {
 

@@ -147,6 +147,12 @@ nav a:hover {
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+@media only screen and (orientation: landscape) {
+  .main-containter{
+    top: -9.5em;
+  }
+}
+
 @media only screen and (min-width: 480px) {
   nav ul{
     /*position: relative;

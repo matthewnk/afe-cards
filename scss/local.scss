@@ -3,9 +3,22 @@
 
 aside {
   @include define-card;
-  h3{
-      margin-top: .8em;
-      margin-bottom: .5em;
+
+  .card-header{
+    h3{
+        position: relative;
+        top: -.5em;
+        margin-top: .8em;
+        margin-bottom: .5em;
+      }
+      summary {
+        position: relative;
+        top: -1.2em;
+      }
+
+      .backToTop{
+        
+      }
     }
   background-color: $aside-background-color;
   background-image: $card-img-gradient;
@@ -23,7 +36,6 @@ aside {
     position: relative;
     top: -1.7em;
     float: right;
-    font-weight: bolder;
   }
 
   .card-html {
@@ -111,6 +123,11 @@ aside {
 
 @media only screen and (min-width: 769px) {
 
+  aside{
+    .backToTop{
+      visibility: hidden;
+    }
+  }
     .header-container {
     
     nav a {      

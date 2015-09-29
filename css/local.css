@@ -13,7 +13,7 @@ aside {
   margin-top: .85em;
   background-color: #F26964;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-  width: 90%;
+  width: 95%;
   border-top: 0px; }
   aside .card-header h3 {
     color: #fff;
@@ -27,9 +27,14 @@ aside {
     line-height: 1; }
   aside details {
     padding-top: 50px; }
-  aside h3 {
+  aside .card-header h3 {
+    position: relative;
+    top: -.5em;
     margin-top: .8em;
     margin-bottom: .5em; }
+  aside .card-header summary {
+    position: relative;
+    top: -1.2em; }
 
 .card-container {
   align-items: flex-start;
@@ -39,8 +44,7 @@ aside {
   .card-container .backToTop {
     position: relative;
     top: -1.7em;
-    float: right;
-    font-weight: bolder; }
+    float: right; }
   .card-container .card-html {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/html1.jpg);
     background-size: 100% 120px;
@@ -185,6 +189,8 @@ aside {
     top: -9.8em; } }
 
 @media only screen and (min-width: 769px) {
+  aside .backToTop {
+    visibility: hidden; }
   .header-container nav a {
     font-size: 1em;
     padding-top: 1.5em;
